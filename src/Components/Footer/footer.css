@@ -1,0 +1,35 @@
+.footer {
+    background-color: #141414; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Limit the width */
+    margin: 0 auto; /* Center the footer */
+    padding: 0 20px; /* Add padding */
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center; /* Center the links */
+    flex-wrap: wrap; /* Wrap links on smaller screens */
+  }
+  
+  .footer-links a {
+    margin: 0 15px; /* Space between links */
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.2s ease; /* Smooth transition for hover effect */
+  }
+  
+  .footer-links a:hover {
+    color: #e50914; /* Change color on hover */
+  }
+  
+  .footer-text {
+    margin-top: 10px; /* Space above the copyright text */
+    font-size: 14px; /* Smaller text size */
+  }
+  
